@@ -1,8 +1,8 @@
 # basewidgets
 
-this project is about all base widgets we can use in flutter(working...)
+this project is about all base widgets we can use in project(working...)
 
-## widgets which i create in this project
+## Todo
 
  - [x] BaseButton
  - [x] BaseLoader
