@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_device_type/flutter_device_type.dart';
 
 import 'package:basewidgets/widgets/button.dart';
 import 'package:basewidgets/widgets/card.dart';
 import 'package:basewidgets/widgets/header.dart';
 import 'package:basewidgets/widgets/loader.dart';
-import 'package:flutter_device_type/flutter_device_type.dart';
+import 'package:basewidgets/widgets/container.dart';
+import 'package:basewidgets/widgets/textformfield.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -122,7 +124,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
 
-              ///
+              ///base Container
+              BaseContainer(
+                child: Text('Hello World'),
+              ),
+
+              ///base textformfield
+              Container(
+                margin: EdgeInsets.all(12),
+                child: BaseTextFormField(
+                  txContentPadding: EdgeInsets.all(12),
+                  txHint: "hello@gmail.com",
+                  txprefix: Icon(Icons.email),
+                ),
+              ),
             ],
           ),
         ),
