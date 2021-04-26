@@ -12,5 +12,3 @@ this project is about all base widgets we can use in flutter...
  - [x] BaseTextField
 
 Suggestions welcome.
-
-thank you.
