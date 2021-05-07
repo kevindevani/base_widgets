@@ -11,6 +11,6 @@ this project is about all base widgets we can use in flutter...
  - [x] BaseContainer
  - [x] BaseTextField
 
-snackbar and custom dialouge usin getx is available.
+snackbar and custom dialouge using getx is available.
 
 Suggestions welcome.
