@@ -1,8 +1,8 @@
 # basewidgets
 
-this project is about all base widgets we can use in flutter(working...)
+this project is about all base widgets we can use in flutter...
 
-## widgets which i create in this project
+## todo
 
  - [x] BaseButton
  - [x] BaseLoader
@@ -12,5 +12,3 @@ this project is about all base widgets we can use in flutter(working...)
  - [x] BaseTextField
 
 Suggestions welcome.
-
-thank you.
