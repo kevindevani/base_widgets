@@ -6,6 +6,7 @@ class BaseStyle {
   static ThemeData get myTheme => ThemeData(
         primaryColor: Colors.white,
         cardColor: Colors.black,
+        // ignore: deprecated_member_use
         cursorColor: Colors.black,
         accentColor: Colors.black,
         canvasColor: Colors.white,
